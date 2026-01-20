@@ -1,0 +1,17 @@
+{
+  "name": "@gamingzone/shared-lib",
+  "version": "1.0.0",
+  "description": "Shared library for GamingZone microservices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["gamingzone", "shared", "microservices"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
