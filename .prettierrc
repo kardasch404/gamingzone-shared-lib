@@ -4,5 +4,8 @@
   "printWidth": 100,
   "tabWidth": 2,
   "semi": true,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "bracketSpacing": true,
+  "useTabs": false
 }
