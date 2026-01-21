@@ -8,6 +8,9 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "clean": "rm -rf dist",
+    "lint": "eslint '{src,test}/**/*.ts' --fix",
+    "format": "prettier --write 'src/**/*.ts'",
+    "prepare": "husky install",
     "prepublishOnly": "npm run build"
   },
   "keywords": ["gamingzone", "shared", "microservices"],
@@ -15,6 +18,13 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
